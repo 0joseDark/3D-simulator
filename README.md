@@ -12,3 +12,6 @@
  # pip install pybullet
  
  # pip install PyOpenGL PyOpenGL_accelerate
+ 
+ # pip install PyQt5 PyOpenGL
+
