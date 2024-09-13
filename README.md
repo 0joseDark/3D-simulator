@@ -13,5 +13,5 @@
  
  # pip install PyOpenGL PyOpenGL_accelerate
  
- # pip install PyQt5 PyOpenGL
+ # pip install PyQt5
 
