@@ -109,7 +109,7 @@ class OpenGLWindow(QMainWindow):
 
     # Carrega a imagem de fundo (labirinto)
     def loadBackground(self):
-        textureSurface = pygame.image.load("/mnt/data/labirinto.jpg")
+        textureSurface = pygame.image.load("C:\Users\jose\Documents\GitHub\3D-simulator\labirinto.jpg")
         textureData = pygame.image.tostring(textureSurface, "RGB", True)
 
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, textureSurface.get_width(), textureSurface.get_height(), 0, GL_RGB, GL_UNSIGNED_BYTE, textureData)
